@@ -1,0 +1,135 @@
+{
+  "@@locale": "en",
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "firebaseInitializationError": "Could not initialize application!",
+  "@firebaseInitializationError": {
+    "description": "Error that appears in the home screen when Firebase failed to initialize the application"
+  },
+  "youHavePushedTheButtonThisManyTimes": "You have pushed the button this many times.",
+  "@youHavePushedTheButtonThisManyTimes": {
+    "description": "Home screen message"
+  },
+  "increment": "Increment",
+  "@increment": {
+    "description": "Home page increment button tooltips"
+  },
+  "createAccount": "Create account",
+  "@createAccount": {
+    "description": "Title of the button to create a new account in onboarding screen"
+  },
+  "signIn": "Log in with phone number",
+  "@signIn": {
+    "description": "Title of the button to sign in in onboarding screen"
+  },
+  "troubleLoggingIn": "Trouble logging in?",
+  "@troubleLoggingIn": {
+    "description": "Title of the button to reset password in onboarding screen"
+  },
+  "phoneNumberTitle": "What is your phone number?",
+  "@phoneNumberTitle": {
+      "description": "Title of the phone number screen"
+  },
+  "phoneNumberExplanation": "We protect our community by making sure that everyone on Blindly is real.",
+  "@phoneNumberExplanation": {
+      "description": "Explanation of why we need the user's phone number in phone number screen"
+  },
+  "phoneNumberHint": "Phone number",
+  "@phoneNumberHint": {
+      "description": "Hint for the phone number field in phone number screen"
+  },
+  "phoneNumberInvalidError": "Invalid phone number",
+  "@phoneNumberInvalidError": {
+      "description": "Error when phone number is invalid in phone number screen"
+  },
+  "phoneNumberExplanation2": "We will send you a text message with a code to verify your phone number. Standard rates may apply. If you ever lose or change your phone number, you will be able to retrieve your account with your email address.\nAlso, we will never share your phone number, and it will not appear on your profile.",
+  "@phoneNumberExplanation2": {
+      "description": "Explanation about the use of the phone number at the bottom of the phone number screen"
+  },
+  "phoneNumberVerificationTitle": "Phone number verification",
+  "@phoneNumberVerificationTitle": {
+      "description": "Title of the phone verification screen"
+  },
+  "phoneNumberVerificationPrompt": "Enter the code sent to ",
+  "@phoneNumberVerificationPrompt": {
+      "description": "Message to prompt the user for the verification code"
+  },
+  "phoneNumberGenericError": "We could not send you a text message to verify your phone number at this stage. Please try again later.",
+  "@phoneNumberGenericError": {
+      "description": "Generic error message that appears when unknown error occurs when verifying the phone number in phone number screen"
+  },
+  "phoneNumberCaptchaError": "We were not able to verify that you are not a robot. Please try again.",
+  "@phoneNumberCaptchaError": {
+      "description": "Error message that appears in phone number screen when authentication reports a captcha error"
+  },
+  "genericAuthenticationError": "We were not able to authenticate you at this stage. Please try again later.",
+  "@genericAuthenticationError": {
+      "description": "Generic error message when something unexpected went wrong with authentication"
+  },
+  "accountDisabledError": "Your account is disabled. Please contact support.",
+  "@accountDisabledError": {
+      "description": "Error message when trying to authenticate with an account that was disabled."
+  },
+  "emailAddressTitle": "What is your email address?",
+  "@emailAddressTitle": {
+      "description": "Title of the email address screen"
+  },
+  "emailAddressPrompt": "If you verify your email address, you will always be able to retrieve your account, even if you lose your phone or change number.",
+  "@emailAddressPrompt": {
+      "description": "Prompt of the email address screen"
+  },
+  "missingEmailError": "You must give us your email address",
+  "@missingEmailError": {
+      "description": "Error message when email address is not specified in email screen"
+  },
+  "invalidEmailAddress": "Email address is invalid",
+  "@invalidEmailAddress": {
+      "description": "Error message when email address is invalid in email screen"
+  },
+  "firstNameTitle": "What is your first name?",
+  "@firstNameTitle": {
+      "description": "Title of the first name screen"
+  },
+  "firstNamePrompt": "Your first name is the first thing people will know about you, and they won't know a lot more. So if it says something about you, feel free to use your real first name.",
+  "@firstNamePrompt": {
+      "description": "Prompt for the first name screen"
+  },
+  "missingFirstNameError": "You must provide us with a first name for people to call you by",
+  "@missingFirstNameError": {
+      "description": "Error message when first name is missing in first name screen"
+  },
+  "phoneNumberVerificationResendCode": "Resend code",
+  "@phoneNumberVerificationResendCode": {
+      "description": "Button to resend phone number verification code via text"
+  },
+  "dateOfBirthTitle": "What is your birthday?",
+  "@dateOfBirthTitle": {
+      "description": "Title of the date of birth screen"
+  },
+  "dateOfBirthPrompt": "This will be useful to know your age and match you with people based on that",
+  "@dateOfBirthPrompt": {
+      "description": "Prompt for the date of birth screen"
+  },
+  "missingDateOfBirthError": "You must specify your date of birth",
+  "@missingDateOfBirthError": {
+      "description": "Error message when date of birth is missing in date of birth screen"
+  },
+  "dateOfBirthHint": "Date of birth",
+  "@dateOfBirthHint": {
+      "description": "Hint for the date of birth field in date of birth screen"
+  },
+  "dateOfBirthTooYoungError": "You are too young to use this app",
+  "@dateOfBirthTooYoungError": {
+      "description": "Error message when date of birth means user is less than 13 years old"
+  },
+  "phoneCodeMissing": "You must type the code we texted you",
+  "@phoneCodeMissing": {
+      "description": "Error message when verification code is missing in phone code screen"
+  },
+  "phoneCodeTooShort": "You must type all 6 digits of the code we texted you",
+  "@phoneCodeTooShort": {
+      "description": "Error message when code is not complete in phone code screen"
+  }
+}
