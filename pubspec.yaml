@@ -25,44 +25,47 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  intl: 0.16.1
+  intl: ^0.17.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.0
-  firebase_core: ^0.7.0
-  firebase_auth: ^0.20.1
-  firebase_database: ^6.0.0
-  firebase_analytics: ^7.0.1
-  firebase_crashlytics: ^0.4.0+1
-  firebase_performance: ^0.5.0+1
-  cloud_firestore: ^0.16.0+1
-  google_fonts: ^1.1.2
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.0.0
+  firebase_auth: ^1.0.0
+  firebase_database: ^6.1.0
+  firebase_analytics: ^7.1.0
+  firebase_crashlytics: ^1.0.0
+  firebase_performance: ^0.6.0
+  cloud_firestore: ^1.0.0
+  google_fonts: ^2.0.0
   logger: ^0.9.4
   flutter_bugfender: ^1.2.2
-  url_launcher: ^5.7.10
-  flutter_markdown: ^0.5.2
-  intl_phone_number_input: ^0.6.0
+  url_launcher: ^6.0.2
+  flutter_markdown: ^0.6.0
+  #intl_phone_number_input: ^0.6.0
     #git:
       #url: git://github.com/natintosh/intl_phone_number_input.git
+  intl_phone_field: ^1.4.4
   pin_code_fields: ^6.1.0
-  json_annotation: ^3.1.1
-  validators: ^2.0.1
+  json_annotation: ^4.0.0
+  #validators: ^2.0.1
   form_validators: ^0.3.0
-  uuid: ^2.2.2
-  date_time_picker: ^1.1.1
+  uuid: ^3.0.1
+  date_time_picker: #^1.1.1
+    git:
+      url: git://github.com/m3uzz/date_time_picker.git
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  build_runner: ^1.10.13
-  json_serializable: ^3.5.1
+  build_runner: ^1.11.5
+  json_serializable: ^4.0.2
 
 dependency_overrides:
-  intl_phone_number_input:
-    path: ../../intl_phone_number_input
-  date_time_picker:
-    path: ../../date_time_picker
+  #intl_phone_number_input:
+    #path: ../../intl_phone_number_input
+  #date_time_picker:
+    #path: ../../date_time_picker
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
